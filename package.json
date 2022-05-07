@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
+    "@babel/preset-env": "^7.17.10",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^28.1.0",
+    "ts-jest": "^28.0.1"
+  }
+}
